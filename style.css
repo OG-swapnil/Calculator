@@ -1,0 +1,44 @@
+*{
+    border: 9rem;
+}
+body{
+    border: #000;
+    background-color: thistle;
+    background-image: url("C:\Users\Lenovo\Downloads\pexels-pixabay-209831.jpg");
+}
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: aliceblue;
+    height: 97px;
+    font-size: 19pt;
+    margin: 103px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-shadow: hoff voff blur #000;
+    margin: 8px;
+    
+}
+.button:hover{
+    background-color:transparent ;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    color:white;
+    border-radius: 50%;
+    background-color: rgb(31, 30, 30);
+    
+}
+#calculate{
+    background-color: orange;
+}
